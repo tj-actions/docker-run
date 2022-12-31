@@ -40,3 +40,10 @@ jobs:
           image: user/app:latest
           args: |
             echo "Hello World"
+            
+      - name: Run docker-run-action from a dockerhub image
+        uses: ./
+        with:
+          image: ubuntu:latest
+          args: |
+            echo "Hello World"
