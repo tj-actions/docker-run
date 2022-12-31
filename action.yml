@@ -1,4 +1,4 @@
-name: Docker Run Action
+name: Docker Run
 description:  Run steps using docker
 author: tj-actions
 inputs:
