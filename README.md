@@ -37,7 +37,7 @@ GitHub action to run steps using docker
             echo "Hello World"
 ```
 
-### Using an image from a registry 
+### Using an image from a registry
 
 ```yaml
 ...
@@ -51,7 +51,6 @@ GitHub action to run steps using docker
           args: |
             echo "Hello World"
 ```
-
 
 ## Inputs
 
