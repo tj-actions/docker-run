@@ -6,6 +6,10 @@
 
 GitHub action to run steps using docker
 
+## Examples
+
+### Using a locally builts image
+
 ```yaml
 ...
     steps:
@@ -32,6 +36,22 @@ GitHub action to run steps using docker
           args: |
             echo "Hello World"
 ```
+
+### Using an image from a registry 
+
+```yaml
+...
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Run ubuntu from dockerhub
+        uses: tj-actions/docker-run-action@v1
+        with:
+          image: ubuntu:latest
+          args: |
+            echo "Hello World"
+```
+
 
 ## Inputs
 
