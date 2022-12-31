@@ -29,12 +29,14 @@ jobs:
         uses: docker/build-push-action@v3
         id: docker-build
         with:
+          context: .
+          load: true
           push: false
           tags: user/app:latest
 
       - name: Run docker-run-action
         uses: ./
         with:
-          image: ${{ steps.docker-build.outputs.imageid }}
+          image: user/app:latest
           args: |
             echo "Hello World"

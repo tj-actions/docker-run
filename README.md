@@ -20,6 +20,8 @@ GitHub action to run steps using docker
       - name: Build
         uses: docker/build-push-action@v3
         with:
+          context: .
+          load: true
           push: false
           tags: user/app:latest
       
