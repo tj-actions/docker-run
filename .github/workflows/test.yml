@@ -11,11 +11,29 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    name: Test docker-action
+    name: Test docker-run-action
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: shellcheck
         uses: reviewdog/action-shellcheck@v1
-      - name: Run docker-action
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2.1.0
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2.2.1
+
+      - name: Build
+        uses: docker/build-push-action@v3
+        with:
+          push: false
+          tags: user/app:latest
+
+      - name: Run docker-run-action
         uses: ./
+        with:
+          image: user/app:latest
+          args: |
+            echo "Hello World"

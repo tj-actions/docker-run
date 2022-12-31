@@ -1,17 +1,27 @@
-name: Docker Action
-description:  Template Docker action
+name: Docker Run Action
+description:  Run steps using docker
 author: tj-actions
 inputs:
-  token:
-    description: 'GITHUB_TOKEN or a Repo scoped PAT'
+  image:
+    description: 'Docker image'
     required: true
-    default: ${{ github.token }}
+  args:
+    description: 'Command to run'
+    required: true
+  options:
+    description: 'Options to pass to docker run'
+    required: false
+    default: ''
 
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - ${{ inputs.token }}
+  using: 'composite'
+  steps:
+    - name: Docker Run
+      id: docker-run
+      shell: bash
+      run: |
+        docker run --rm -v $(pwd):${{ github.workspace }} -v "/var/run/docker.sock":"/var/run/docker.sock" --workdir ${{ github.workspace }} ${{ inputs.options }} ${{ inputs.image }} ${{ inputs.args }}
+
 branding:
-  icon: check-square
+  icon: refresh-cw
   color: white
