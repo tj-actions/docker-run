@@ -27,6 +27,7 @@ jobs:
 
       - name: Build
         uses: docker/build-push-action@v3
+        id: docker-build
         with:
           push: false
           tags: user/app:latest
@@ -34,6 +35,6 @@ jobs:
       - name: Run docker-run-action
         uses: ./
         with:
-          image: user/app:latest
+          image: ${{ steps.docker-build.outputs.imageid }}
           args: |
             echo "Hello World"
