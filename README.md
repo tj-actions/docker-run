@@ -47,7 +47,7 @@ GitHub action to run steps using docker
       - name: Run ubuntu from dockerhub
         uses: tj-actions/docker-run-action@v1
         with:
-          image: ubuntu:latest
+          image: ubuntu:latest  # OR gcr.io/cloud-builders/gradle
           args: |
             echo "Hello World"
 ```
