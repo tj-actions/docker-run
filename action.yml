@@ -29,6 +29,7 @@ runs:
       shell: bash
       run: |
         docker run --rm -v "/var/run/docker.sock":"/var/run/docker.sock" --name ${{ inputs.name }} ${{ inputs.options }} ${{ inputs.image }} ${{ inputs.args }}
+        docker ps -a
         echo "container_id=$(docker ps -a --filter name=${{ inputs.name }} -q)" >> "$GITHUB_OUTPUT"
 
 branding:
