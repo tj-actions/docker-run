@@ -40,7 +40,7 @@ jobs:
           name: test-app-1
           image: user/app:latest
           args: |
-            echo "Hello World" && ls
+            bash -c 'echo "Hello World" && ls'
             
       - name: Run docker-run from a dockerhub image
         uses: ./
@@ -48,4 +48,4 @@ jobs:
           name: test-app-2
           image: ubuntu:latest
           args: |
-            echo "Hello World" && ls
+            bash -c 'echo "Hello World" && ls'
