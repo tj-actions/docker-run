@@ -65,6 +65,8 @@ GitHub action to run steps using docker
 
 <!-- AUTO-DOC-INPUT:END -->
 
+## Outputs
+
 *   Free software: [MIT license](LICENSE)
 
 If you feel generous and want to show some extra appreciation:
