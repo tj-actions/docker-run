@@ -36,6 +36,7 @@ jobs:
 
       - name: Run docker-run
         uses: ./
+        id: test-app-1
         with:
           name: test-app-1
           image: user/app:latest
@@ -44,8 +45,17 @@ jobs:
             
       - name: Run docker-run from a dockerhub image
         uses: ./
+        id: test-app-2
         with:
           name: test-app-2
           image: ubuntu:latest
           args: |
             bash -c 'echo "Hello World" && ls'
+            
+      - name: Show output
+        run: |
+          echo '${{ toJSON(steps.test-app-1.outputs) }}'
+          echo '${{ toJSON(steps.test-app-2.outputs) }}'
+        shell:
+          bash
+
