@@ -5,6 +5,9 @@ inputs:
   image:
     description: 'Docker image'
     required: true
+  name:
+    description: 'Container name'
+    required: true
   args:
     description: 'Command to run'
     required: true
@@ -13,6 +16,11 @@ inputs:
     required: false
     default: ''
 
+outputs:
+  container-id:
+    description: 'Container ID'
+    value: ${{ steps.docker-run.outputs.container_id }}
+
 runs:
   using: 'composite'
   steps:
@@ -20,7 +28,8 @@ runs:
       id: docker-run
       shell: bash
       run: |
-        docker run --rm -v "/var/run/docker.sock":"/var/run/docker.sock" ${{ inputs.options }} ${{ inputs.image }} ${{ inputs.args }}
+        docker run --rm -v "/var/run/docker.sock":"/var/run/docker.sock" --name ${{ inputs.name }} ${{ inputs.options }} ${{ inputs.image }} ${{ inputs.args }}
+        echo "container_id=true" >> "$GITHUB_OUTPUT"
 
 branding:
   icon: refresh-cw
