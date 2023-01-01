@@ -30,7 +30,6 @@ runs:
       run: |
         docker run -v "/var/run/docker.sock":"/var/run/docker.sock" --name ${{ inputs.name }} ${{ inputs.options }} ${{ inputs.image }} ${{ inputs.args }}
         echo "container_id=$(docker ps -a --filter name=${{ inputs.name }} -q)" >> "$GITHUB_OUTPUT"
-        docker container rm ${{ inputs.name }} || true
 
 branding:
   icon: refresh-cw
