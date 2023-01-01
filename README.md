@@ -8,7 +8,7 @@ GitHub action to run steps using docker
 
 ## Examples
 
-### Using a locally builts image
+### Using a locally built image
 
 ```yaml
 ...
