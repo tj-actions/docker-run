@@ -37,6 +37,7 @@ jobs:
       - name: Run docker-run
         uses: ./
         with:
+          name: test-app-1
           image: user/app:latest
           args: |
             echo "Hello World" && ls
@@ -44,6 +45,7 @@ jobs:
       - name: Run docker-run from a dockerhub image
         uses: ./
         with:
+          name: test-app-2
           image: ubuntu:latest
           args: |
             echo "Hello World" && ls
