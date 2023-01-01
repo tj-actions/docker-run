@@ -30,7 +30,7 @@ GitHub action to run steps using docker
           tags: user/app:latest
       
       - name: Run
-        uses: tj-actions/docker-run-action@v1
+        uses: tj-actions/docker-run-action@v2
         with:
           image: user/app:latest
           args: |
@@ -45,7 +45,7 @@ GitHub action to run steps using docker
       - uses: actions/checkout@v2
       
       - name: Run ubuntu from dockerhub
-        uses: tj-actions/docker-run-action@v1
+        uses: tj-actions/docker-run-action@v2
         with:
           image: ubuntu:latest  # OR gcr.io/cloud-builders/gradle
           args: |

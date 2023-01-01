@@ -1,5 +1,26 @@
 # Changelog
 
+## [Unreleased](https://github.com/tj-actions/docker-run-action/tree/HEAD)
+
+[Full Changelog](https://github.com/tj-actions/docker-run-action/compare/v2.0.0...HEAD)
+
+**Merged pull requests:**
+
+- Updated README.md [\#12](https://github.com/tj-actions/docker-run-action/pull/12) ([jackton1](https://github.com/jackton1))
+
+## [v2.0.0](https://github.com/tj-actions/docker-run-action/tree/v2.0.0) (2023-01-01)
+
+[Full Changelog](https://github.com/tj-actions/docker-run-action/compare/v2...v2.0.0)
+
+## [v2](https://github.com/tj-actions/docker-run-action/tree/v2) (2023-01-01)
+
+[Full Changelog](https://github.com/tj-actions/docker-run-action/compare/v1...v2)
+
+**Merged pull requests:**
+
+- feat: remove unused inputs [\#11](https://github.com/tj-actions/docker-run-action/pull/11) ([jackton1](https://github.com/jackton1))
+- Upgraded to v1.2.0 [\#10](https://github.com/tj-actions/docker-run-action/pull/10) ([jackton1](https://github.com/jackton1))
+
 ## [v1](https://github.com/tj-actions/docker-run-action/tree/v1) (2023-01-01)
 
 [Full Changelog](https://github.com/tj-actions/docker-run-action/compare/v1.2.0...v1)
