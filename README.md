@@ -61,7 +61,6 @@ GitHub action to run steps using docker
 |  args   | string |   true   |         |        Command to run         |
 |  image  | string |   true   |         |         Docker image          |
 | options | string |  false   |         | Options to pass to docker run |
-| workdir | string |  false   |  `"."`  |       Working directory       |
 
 <!-- AUTO-DOC-INPUT:END -->
 
