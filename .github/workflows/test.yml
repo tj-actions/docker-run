@@ -39,11 +39,11 @@ jobs:
         with:
           image: user/app:latest
           args: |
-            echo "Hello World"
+            echo "Hello World" && ls
             
       - name: Run docker-run-action from a dockerhub image
         uses: ./
         with:
           image: ubuntu:latest
           args: |
-            echo "Hello World"
+            echo "Hello World" && ls
