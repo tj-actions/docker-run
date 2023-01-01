@@ -1,8 +1,8 @@
-[![CI](https://github.com/tj-actions/docker-run-action/workflows/CI/badge.svg)](https://github.com/tj-actions/docker-run-action/actions?query=workflow%3ACI)
-[![Update release version.](https://github.com/tj-actions/docker-run-action/workflows/Update%20release%20version./badge.svg)](https://github.com/tj-actions/docker-run-action/actions?query=workflow%3A%22Update+release+version.%22)
-[![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fused-by.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fdocker-run-action%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+docker-run-action+path%3A.github%2Fworkflows+language%3AYAML\&s=\&type=Code)
+[![CI](https://github.com/tj-actions/docker-run/workflows/CI/badge.svg)](https://github.com/tj-actions/docker-run/actions?query=workflow%3ACI)
+[![Update release version.](https://github.com/tj-actions/docker-run/workflows/Update%20release%20version./badge.svg)](https://github.com/tj-actions/docker-run/actions?query=workflow%3A%22Update+release+version.%22)
+[![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fused-by.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fdocker-run%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+docker-run+path%3A.github%2Fworkflows+language%3AYAML\&s=\&type=Code)
 
-## docker-run-action
+## docker-run
 
 GitHub action to run steps using docker
 
@@ -30,7 +30,7 @@ GitHub action to run steps using docker
           tags: user/app:latest
       
       - name: Run
-        uses: tj-actions/docker-run-action@v2
+        uses: tj-actions/docker-run@v2
         with:
           image: user/app:latest
           args: |
@@ -45,7 +45,7 @@ GitHub action to run steps using docker
       - uses: actions/checkout@v2
       
       - name: Run ubuntu from dockerhub
-        uses: tj-actions/docker-run-action@v2
+        uses: tj-actions/docker-run@v2
         with:
           image: ubuntu:latest  # OR gcr.io/cloud-builders/gradle
           args: |
@@ -80,7 +80,7 @@ This package was created with [Cookiecutter](https://github.com/cookiecutter/coo
 
 ## Report Bugs
 
-Report bugs at https://github.com/tj-actions/docker-run-action/issues.
+Report bugs at https://github.com/tj-actions/docker-run/issues.
 
 If you are reporting a bug, please include:
 
