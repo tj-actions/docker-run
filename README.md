@@ -67,6 +67,14 @@ GitHub action to run steps using docker
 
 ## Outputs
 
+<!-- AUTO-DOC-OUTPUT:START - Do not remove or modify this section -->
+
+|    OUTPUT    |  TYPE  | DESCRIPTION  |
+|--------------|--------|--------------|
+| container-id | string | Container ID |
+
+<!-- AUTO-DOC-OUTPUT:END -->
+
 *   Free software: [MIT license](LICENSE)
 
 If you feel generous and want to show some extra appreciation:
