@@ -1,8 +1,18 @@
 # Changelog
 
-## [v1](https://github.com/tj-actions/docker-run-action/tree/v1) (2022-12-31)
+## [v1](https://github.com/tj-actions/docker-run-action/tree/v1) (2023-01-01)
 
-[Full Changelog](https://github.com/tj-actions/docker-run-action/compare/v1.0.0...v1)
+[Full Changelog](https://github.com/tj-actions/docker-run-action/compare/v1.1.0...v1)
+
+## [v1.1.0](https://github.com/tj-actions/docker-run-action/tree/v1.1.0) (2023-01-01)
+
+[Full Changelog](https://github.com/tj-actions/docker-run-action/compare/v1.0.0...v1.1.0)
+
+**Merged pull requests:**
+
+- Updated README.md [\#7](https://github.com/tj-actions/docker-run-action/pull/7) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#6](https://github.com/tj-actions/docker-run-action/pull/6) ([jackton1](https://github.com/jackton1))
+- Upgraded to v1.0.0 [\#5](https://github.com/tj-actions/docker-run-action/pull/5) ([jackton1](https://github.com/jackton1))
 
 ## [v1.0.0](https://github.com/tj-actions/docker-run-action/tree/v1.0.0) (2022-12-31)
 
