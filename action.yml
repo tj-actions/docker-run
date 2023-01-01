@@ -12,6 +12,10 @@ inputs:
     description: 'Options to pass to docker run'
     required: false
     default: ''
+  workdir:
+    description: 'Working directory'
+    required: false
+    default: ${{ github.workspace }}
 
 runs:
   using: 'composite'
@@ -20,7 +24,7 @@ runs:
       id: docker-run
       shell: bash
       run: |
-        docker run --rm -v $(pwd):${{ github.workspace }} -v "/var/run/docker.sock":"/var/run/docker.sock" --workdir ${{ github.workspace }} ${{ inputs.options }} ${{ inputs.image }} ${{ inputs.args }}
+        docker run --rm -v $(pwd):${{ inputs.workdir }} -v "/var/run/docker.sock":"/var/run/docker.sock" --workdir ${{ inputs.workdir }} ${{ inputs.options }} ${{ inputs.image }} ${{ inputs.args }}
 
 branding:
   icon: refresh-cw
