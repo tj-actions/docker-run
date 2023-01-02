@@ -1,33 +1,36 @@
 # Changelog
 
-## [Unreleased](https://github.com/tj-actions/docker-run/tree/HEAD)
+## [v2](https://github.com/tj-actions/docker-run/tree/v2) (2023-01-01)
 
-[Full Changelog](https://github.com/tj-actions/docker-run/compare/v2.0.0...HEAD)
+[Full Changelog](https://github.com/tj-actions/docker-run/compare/v2.1.0...v2)
+
+## [v2.1.0](https://github.com/tj-actions/docker-run/tree/v2.1.0) (2023-01-01)
+
+[Full Changelog](https://github.com/tj-actions/docker-run/compare/v2.0.0...v2.1.0)
 
 **Merged pull requests:**
 
+- Updated README.md [\#15](https://github.com/tj-actions/docker-run/pull/15) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#14](https://github.com/tj-actions/docker-run/pull/14) ([jackton1](https://github.com/jackton1))
+- Upgraded to v2 [\#13](https://github.com/tj-actions/docker-run/pull/13) ([jackton1](https://github.com/jackton1))
 - Updated README.md [\#12](https://github.com/tj-actions/docker-run/pull/12) ([jackton1](https://github.com/jackton1))
 
 ## [v2.0.0](https://github.com/tj-actions/docker-run/tree/v2.0.0) (2023-01-01)
 
-[Full Changelog](https://github.com/tj-actions/docker-run/compare/v2...v2.0.0)
-
-## [v2](https://github.com/tj-actions/docker-run/tree/v2) (2023-01-01)
-
-[Full Changelog](https://github.com/tj-actions/docker-run/compare/v1...v2)
+[Full Changelog](https://github.com/tj-actions/docker-run/compare/v1.2.0...v2.0.0)
 
 **Merged pull requests:**
 
 - feat: remove unused inputs [\#11](https://github.com/tj-actions/docker-run/pull/11) ([jackton1](https://github.com/jackton1))
 - Upgraded to v1.2.0 [\#10](https://github.com/tj-actions/docker-run/pull/10) ([jackton1](https://github.com/jackton1))
 
-## [v1](https://github.com/tj-actions/docker-run/tree/v1) (2023-01-01)
-
-[Full Changelog](https://github.com/tj-actions/docker-run/compare/v1.2.0...v1)
-
 ## [v1.2.0](https://github.com/tj-actions/docker-run/tree/v1.2.0) (2023-01-01)
 
-[Full Changelog](https://github.com/tj-actions/docker-run/compare/v1.1.0...v1.2.0)
+[Full Changelog](https://github.com/tj-actions/docker-run/compare/v1...v1.2.0)
+
+## [v1](https://github.com/tj-actions/docker-run/tree/v1) (2023-01-01)
+
+[Full Changelog](https://github.com/tj-actions/docker-run/compare/v1.1.0...v1)
 
 **Merged pull requests:**
 
