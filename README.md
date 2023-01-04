@@ -33,6 +33,7 @@ GitHub action to run steps using docker
         uses: tj-actions/docker-run@v2
         with:
           image: user/app:latest
+          name: user-app
           args: |
             echo "Hello World"
 ```
@@ -48,6 +49,7 @@ GitHub action to run steps using docker
         uses: tj-actions/docker-run@v2
         with:
           image: ubuntu:latest  # OR gcr.io/cloud-builders/gradle
+          name: ubuntu
           args: |
             echo "Hello World"
 ```
