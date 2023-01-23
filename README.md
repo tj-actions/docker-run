@@ -60,7 +60,7 @@ GitHub action to run steps using docker
 
 |  INPUT  |  TYPE  | REQUIRED | DEFAULT |          DESCRIPTION          |
 |---------|--------|----------|---------|-------------------------------|
-|  args   | string |   true   |         |        Command to run         |
+|  args   | string |  false   |         |        Command to run         |
 |  image  | string |   true   |         |         Docker image          |
 |  name   | string |   true   |         |        Container name         |
 | options | string |  false   |         | Options to pass to docker run |
