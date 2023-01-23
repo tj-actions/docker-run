@@ -1,8 +1,32 @@
 # Changelog
 
-## [v2](https://github.com/tj-actions/docker-run/tree/v2) (2023-01-01)
+## [Unreleased](https://github.com/tj-actions/docker-run/tree/HEAD)
+
+[Full Changelog](https://github.com/tj-actions/docker-run/compare/v2.2.0...HEAD)
+
+**Implemented enhancements:**
+
+- \[Feature\] Make input "args" optional [\#20](https://github.com/tj-actions/docker-run/issues/20)
+
+## [v2.2.0](https://github.com/tj-actions/docker-run/tree/v2.2.0) (2023-01-23)
+
+[Full Changelog](https://github.com/tj-actions/docker-run/compare/v2...v2.2.0)
+
+## [v2](https://github.com/tj-actions/docker-run/tree/v2) (2023-01-23)
 
 [Full Changelog](https://github.com/tj-actions/docker-run/compare/v2.1.0...v2)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#2](https://github.com/tj-actions/docker-run/issues/2)
+
+**Merged pull requests:**
+
+- feat: make args optional [\#21](https://github.com/tj-actions/docker-run/pull/21) ([jackton1](https://github.com/jackton1))
+- Update alpine Docker tag to v3.17.1 [\#19](https://github.com/tj-actions/docker-run/pull/19) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.3.0 [\#18](https://github.com/tj-actions/docker-run/pull/18) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.7.3 [\#17](https://github.com/tj-actions/docker-run/pull/17) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v2.1.0 [\#16](https://github.com/tj-actions/docker-run/pull/16) ([jackton1](https://github.com/jackton1))
 
 ## [v2.1.0](https://github.com/tj-actions/docker-run/tree/v2.1.0) (2023-01-01)
 
@@ -17,20 +41,20 @@
 
 ## [v2.0.0](https://github.com/tj-actions/docker-run/tree/v2.0.0) (2023-01-01)
 
-[Full Changelog](https://github.com/tj-actions/docker-run/compare/v1.2.0...v2.0.0)
+[Full Changelog](https://github.com/tj-actions/docker-run/compare/v1...v2.0.0)
 
 **Merged pull requests:**
 
 - feat: remove unused inputs [\#11](https://github.com/tj-actions/docker-run/pull/11) ([jackton1](https://github.com/jackton1))
 - Upgraded to v1.2.0 [\#10](https://github.com/tj-actions/docker-run/pull/10) ([jackton1](https://github.com/jackton1))
 
-## [v1.2.0](https://github.com/tj-actions/docker-run/tree/v1.2.0) (2023-01-01)
-
-[Full Changelog](https://github.com/tj-actions/docker-run/compare/v1...v1.2.0)
-
 ## [v1](https://github.com/tj-actions/docker-run/tree/v1) (2023-01-01)
 
-[Full Changelog](https://github.com/tj-actions/docker-run/compare/v1.1.0...v1)
+[Full Changelog](https://github.com/tj-actions/docker-run/compare/v1.2.0...v1)
+
+## [v1.2.0](https://github.com/tj-actions/docker-run/tree/v1.2.0) (2023-01-01)
+
+[Full Changelog](https://github.com/tj-actions/docker-run/compare/v1.1.0...v1.2.0)
 
 **Merged pull requests:**
 
@@ -50,10 +74,6 @@
 ## [v1.0.0](https://github.com/tj-actions/docker-run/tree/v1.0.0) (2022-12-31)
 
 [Full Changelog](https://github.com/tj-actions/docker-run/compare/53d31446cb69b5c33408326ea3d45854b17f487c...v1.0.0)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#2](https://github.com/tj-actions/docker-run/issues/2)
 
 **Merged pull requests:**
 
