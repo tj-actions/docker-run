@@ -10,7 +10,7 @@ inputs:
     required: true
   args:
     description: 'Command to run'
-    required: true
+    required: false
   options:
     description: 'Options to pass to docker run'
     required: false
