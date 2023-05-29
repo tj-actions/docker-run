@@ -58,12 +58,12 @@ GitHub action to run steps using docker
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|  INPUT  |  TYPE  | REQUIRED | DEFAULT |          DESCRIPTION          |
-|---------|--------|----------|---------|-------------------------------|
-|  args   | string |  false   |         |        Command to run         |
-|  image  | string |   true   |         |         Docker image          |
-|  name   | string |   true   |         |        Container name         |
-| options | string |  false   |         | Options to pass to docker run |
+|  INPUT  |  TYPE  | REQUIRED | DEFAULT |            DESCRIPTION             |
+|---------|--------|----------|---------|------------------------------------|
+|  args   | string |  false   |         |           Command to run           |
+|  image  | string |   true   |         |            Docker image            |
+|  name   | string |   true   |         |           Container name           |
+| options | string |  false   |         | Options to pass to docker <br>run  |
 
 <!-- AUTO-DOC-INPUT:END -->
 
