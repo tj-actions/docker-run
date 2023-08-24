@@ -58,12 +58,12 @@ GitHub action to run steps using docker
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|  INPUT  |  TYPE  | REQUIRED | DEFAULT |            DESCRIPTION             |
-|---------|--------|----------|---------|------------------------------------|
-|  args   | string |  false   |         |           Command to run           |
-|  image  | string |   true   |         |            Docker image            |
-|  name   | string |   true   |         |           Container name           |
-| options | string |  false   |         | Options to pass to docker <br>run  |
+|                         INPUT                         |  TYPE  | REQUIRED | DEFAULT |            DESCRIPTION             |
+|-------------------------------------------------------|--------|----------|---------|------------------------------------|
+|     <a name="input_args"></a>[args](#input_args)      | string |  false   |         |           Command to run           |
+|    <a name="input_image"></a>[image](#input_image)    | string |   true   |         |            Docker image            |
+|     <a name="input_name"></a>[name](#input_name)      | string |   true   |         |           Container name           |
+| <a name="input_options"></a>[options](#input_options) | string |  false   |         | Options to pass to docker <br>run  |
 
 <!-- AUTO-DOC-INPUT:END -->
 
@@ -71,9 +71,9 @@ GitHub action to run steps using docker
 
 <!-- AUTO-DOC-OUTPUT:START - Do not remove or modify this section -->
 
-|    OUTPUT    |  TYPE  | DESCRIPTION  |
-|--------------|--------|--------------|
-| container-id | string | Container ID |
+|                                 OUTPUT                                 |  TYPE  | DESCRIPTION  |
+|------------------------------------------------------------------------|--------|--------------|
+| <a name="output_container-id"></a>[container-id](#output_container-id) | string | Container ID |
 
 <!-- AUTO-DOC-OUTPUT:END -->
 
