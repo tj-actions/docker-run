@@ -65,6 +65,7 @@ jobs:
         run: |
           echo '${{ toJSON(steps.test-app-1.outputs) }}'
           echo '${{ toJSON(steps.test-app-2.outputs) }}'
+          echo '${{ toJSON(steps.test-app-3.outputs) }}'
         shell:
           bash
 
