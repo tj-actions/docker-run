@@ -51,6 +51,15 @@ jobs:
           image: ubuntu:latest
           args: |
             bash -c 'echo "Hello World" && ls'
+
+      - name: Run docker-run from a dockerhub image
+        uses: ./
+        id: test-app-3
+        with:
+          name: test-app-2
+          image: ubuntu:latest
+          args: |
+            bash -c 'echo "Hello World 2" && ls -al'
             
       - name: Show output
         run: |
