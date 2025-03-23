@@ -43,7 +43,7 @@ jobs:
           args: |
             bash -c 'echo "Hello World" && ls'
             
-      - name: Run docker-run from a dockerhub image
+      - name: Run docker-run from a dockerhub image 1
         uses: ./
         id: test-app-2
         with:
@@ -52,11 +52,11 @@ jobs:
           args: |
             bash -c 'echo "Hello World" && ls'
 
-      - name: Run docker-run from a dockerhub image
+      - name: Run docker-run from a dockerhub image 2
         uses: ./
         id: test-app-3
         with:
-          name: test-app-2
+          name: test-app-3
           image: ubuntu:latest
           args: |
             bash -c 'echo "Hello World 2" && ls -al'
